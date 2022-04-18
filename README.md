@@ -4,31 +4,37 @@
 
 ## 1. Objetivo
 
-Este projeto faz parte do curso de Análise de Dados com Linguagem Python da [Data Science Academy](https://www.datascienceacademy.com.br/start), e tem o intuito de aplicar técnicas de análise de dados utilizando banco de dados relacional, `Python` e `SQL`.
+Este projeto faz parte do curso de Análise de Dados com Linguagem Python da [Data Science Academy](https://www.datascienceacademy.com.br/start), e tem o intuito de aplicar técnicas de análise de dados utilizando banco de dados relacional `SQLite`, `Python` e `SQL`.
 
 O objetivo é simular uma necessidade que foi solicitada por uma cientista de dados e entregá-lo uma amostra com os pacientes com mais de 50 anos e, para cada um deles, indicar em uma nova coluna se o paciene está normal ou obeso. Se BMI for menor que 30, o paciente está normal. Se o BMI for maior ou igual a 30, então o paciente está obeso. A partir disso, deverá ser criado um novo arquivo CSV e encaminhar ao cientista de dados.
 
 ## 2. Coleta e Extração dos Dados
 
-O dataset utilizado foi obtido da plataforma [Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) e contém informações do Instituto Nacional de Diabetes e Doenças Digestivas e Renais, dos Estados Unidos. O dataset contém dados de mulheres a partir de 21 anos de idade do povo indígena americano Pima e possui informações de número de gestações, IMC, nível de insulina, idade e assim por diante.
+O dataset utilizado foi obtido da plataforma [Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) e contém informações do Instituto Nacional de Diabetes e Doenças Digestivas e Renais, dos Estados Unidos. 
+
+O dataset possui 768 registro em 9 colunas e contém dados de mulheres a partir de 21 anos de idade do povo indígena americano Pima.
 
 | Atributo | Tipo | Descrição |
 |--- |--- |--- |
-| Pregnancies |--- | Quantas vezes engravidou
-| Glucose |--- | Concentração de glicose plasmática em um teste oral de tolerância à glicose
-| BloodPressure |--- | Pressão arterial diastólica (mm Hg)
-| SkinThickness |--- | Espessura da dobra cutânea do tríceps (mm)
-| Insulin |--- | Insulina sérica de 2 horas (mu U/ml)
-| BMI |--- | IMC - Índice de massa corporal (peso em kg/altura em m²)
-| DiabetesPedigreeFunction |--- | Função hereditária do diabetes
-| Age |--- | Idade (anos)
-| Outcome |--- | Variável de classe (0 ou 1) 268 de 768 são 1, as demais são 0
+| Pregnancies | INT | Quantas vezes engravidou
+| Glucose | INT | Concentração de glicose plasmática em um teste oral de tolerância à glicose
+| BloodPressure | INT | Pressão arterial diastólica (mm Hg)
+| SkinThickness | INT | Espessura da dobra cutânea do tríceps (mm)
+| Insulin | INT | Insulina sérica de 2 horas (mu U/ml)
+| BMI | DECIMAL(8,2) | IMC - Índice de massa corporal (peso em kg/altura em m²)
+| DiabetesPedigreeFunction | DECIMAL(8,2) | Função hereditária do diabetes
+| Age | INT | Idade (anos)
+| Outcome | INT | Indica se teve ou não diabetes (0: não teve diabetes / 1: teve diabetes) 
 
 ## 3. Ferramentas
 
 Foi utilizado o aplicativo web open-source `Jupyter Notebook`. Foram instalados os pacotes Watermark (para gravar as versões de outros pacotes usados no Jupyter Notebook utilizado) e ipython-SQL (para rodar instruções SQL no Jupyter Notebook) e importados os pacotes `Pandas` e `SQLite3`.
 
 ## 4. Técnicas de Análise
+
+1. Carregar o dataset original ('diabetes.csv') em um dataframe do Pandas
+2. Copiar este dataframe para dentro do banco de dados SQLite como uma tabela ('diabetes.csv')
+3. Criar uma tabela ('pacientes.csv') vazia no banco de dados
 
 ## 5. Resultados
 
