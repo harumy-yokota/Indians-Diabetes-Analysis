@@ -26,6 +26,12 @@ O dataset utilizado foi obtido da plataforma [Kaggle](https://www.kaggle.com/dat
 
 ## 3. Ferramentas
 
+Foi utilizado o aplicativo web open-source Jupyter Notebook e foram instalados os seguintes pacotes:
+- Watermark (para gravar as versões de outros pacotes usados no Jupyter Notebook utilizado)
+- ipython-SQL (para rodar instruções SQL no Jupyter Notebook)
+- Pandas
+- SQLite3
+
 ## 4. Técnicas de Análise
 
 ## 5. Resultados
