@@ -1,6 +1,6 @@
 # Análise Exploratória de Pacientes Diabéticos
 
-![Projeto1] (D:/Harumy/Data-Science-Academy/Formacao_Analista-de-Dados/Curso02_Analise-de-Dados-com-Linguagem-Python/Cap02/Projeto01/imagens)
+![iStock-1169420357-2120x1060](https://user-images.githubusercontent.com/96497622/163745289-55c68aac-37b3-4634-87d6-6b492a283ee7.jpg)
 
 ## 1. Objetivo
 
@@ -26,11 +26,7 @@ O dataset utilizado foi obtido da plataforma [Kaggle](https://www.kaggle.com/dat
 
 ## 3. Ferramentas
 
-Foi utilizado o aplicativo web open-source Jupyter Notebook e foram instalados os seguintes pacotes:
-- Watermark (para gravar as versões de outros pacotes usados no Jupyter Notebook utilizado)
-- ipython-SQL (para rodar instruções SQL no Jupyter Notebook)
-- Pandas
-- SQLite3
+Foi utilizado o aplicativo web open-source `Jupyter Notebook`. Foram instalados os pacotes Watermark (para gravar as versões de outros pacotes usados no Jupyter Notebook utilizado) e ipython-SQL (para rodar instruções SQL no Jupyter Notebook) e importados os pacotes `Pandas` e `SQLite3`.
 
 ## 4. Técnicas de Análise
 
@@ -44,5 +40,5 @@ Foi utilizado o aplicativo web open-source Jupyter Notebook e foram instalados o
 4. Aplicação das técnicas de análise (análise exploratória, estatística descritiva, agregação, sumarização, estatística inferencial, mineração de dados, ML etc.)
 5. Entrega dos resultados (relatórios, gráficos, tabelas, etc.)
 -->
- ![2278983](https://user-images.githubusercontent.com/96497622/163745211-bfe3809c-467e-4bbe-beda-c39d398640f0.png)
+
 
