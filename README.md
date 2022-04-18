@@ -34,9 +34,14 @@ Foi utilizado o aplicativo web open-source `Jupyter Notebook`. Foram instalados 
 
 1. Carregar o dataset original ('diabetes.csv') em um dataframe do Pandas
 2. Copiar este dataframe para dentro do banco de dados SQLite como uma tabela ('diabetes.csv')
-3. Criar uma tabela ('pacientes.csv') vazia no banco de dados
+    1. Criar uma tabela ('pacientes.csv') vazia no banco de dados
+    2. Inserir os registros de 'diabetes.csv' para 'pacientes.csv' onde a idade for maior que 50 anos
+    3. Criar a coluna 'Perfil' em 'pacientes.csv' e aplicar regra da condição BMI para saber se o paciente está normal ou obeso
+3. Carregar os dados no Pandas e salvar como .CSV
 
 ## 5. Resultados
+
+O dataframe resultante possui 81 registros e 10 colunas
 
 <!--- Comentários - Plano de análise de dados
 
