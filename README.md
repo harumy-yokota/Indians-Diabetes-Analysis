@@ -44,4 +44,5 @@ Foi utilizado o aplicativo web open-source Jupyter Notebook e foram instalados o
 4. Aplicação das técnicas de análise (análise exploratória, estatística descritiva, agregação, sumarização, estatística inferencial, mineração de dados, ML etc.)
 5. Entrega dos resultados (relatórios, gráficos, tabelas, etc.)
 -->
- 
+ ![2278983](https://user-images.githubusercontent.com/96497622/163745211-bfe3809c-467e-4bbe-beda-c39d398640f0.png)
+
