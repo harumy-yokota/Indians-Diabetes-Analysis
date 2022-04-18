@@ -6,7 +6,7 @@
 
 Este projeto faz parte do curso de Análise de Dados com Linguagem Python da [Data Science Academy](https://www.datascienceacademy.com.br/start), e tem o intuito de aplicar técnicas de análise de dados utilizando banco de dados relacional, `Python` e `SQL`.
 
-O objetivo deste projeto foi de...
+O objetivo é simular uma necessidade que foi solicitada por uma cientista de dados e entregá-lo uma amostra com os pacientes com mais de 50 anos e, para cada um deles, indicar em uma nova coluna se o paciene está normal ou obeso. Se BMI for menor que 30, o paciente está normal. Se o BMI for maior ou igual a 30, então o paciente está obeso. A partir disso, deverá ser criado um novo arquivo CSV e encaminhar ao cientista de dados.
 
 ## 2. Coleta e Extração dos Dados
 
