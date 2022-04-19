@@ -32,6 +32,8 @@ Foi utilizado o aplicativo web open-source `Jupyter Notebook`. Foram instalados 
 
 ## 4. Técnicas de Análise
 
+Foram utilizadas técnicas de exploração dos dados para agregação e sumarização dos registros, para atender o objetivo do projeto e realizadas as seguintes etapas:
+
 1. Carregar o dataset original ('diabetes.csv') em um dataframe do Pandas
 2. Copiar este dataframe para dentro do banco de dados SQLite como uma tabela ('diabetes.csv')
     1. Criar uma tabela ('pacientes.csv') vazia no banco de dados
@@ -41,7 +43,7 @@ Foi utilizado o aplicativo web open-source `Jupyter Notebook`. Foram instalados 
 
 ## 5. Resultados
 
-O dataframe resultante possui 81 registros e 10 colunas
+O dataframe resultante possui 81 registros e 10 colunas.
 
 <!--- Comentários - Plano de análise de dados
 
