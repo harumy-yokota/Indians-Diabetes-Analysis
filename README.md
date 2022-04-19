@@ -45,6 +45,8 @@ Foram utilizadas técnicas de exploração dos dados para agregação e sumariza
 
 O dataframe resultante possui 81 registros e 10 colunas.
 
+![datasetpng](https://user-images.githubusercontent.com/96497622/164069217-29659af0-075a-4c89-9cef-7fed48940706.png)
+
 <!--- Comentários - Plano de análise de dados
 
 1. Definição do objetivo (O que queremos analisar? Quais perguntas devem ser respondidas?)
